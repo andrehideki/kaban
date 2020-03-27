@@ -1,0 +1,8 @@
+CREATE TABLE cartao (
+	id BIGINT(20) PRIMARY KEY AUTO_INCREMENT,
+	nome VARCHAR(255) NOT NULL,
+	data_insercao DATETIME NOT NULL,
+	data_atualizacao DATETIME NOT NULL,
+	prioridade INT,
+	cor VARCHAR(10)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
