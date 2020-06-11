@@ -1,0 +1,32 @@
+{
+  "etapas": [
+    {
+      "id": 1,
+      "nome": "DOING",
+      "cartoes": [
+        {
+          "id": 4,
+          "nome": "Teste"
+        }
+      ]
+    }
+  ],
+  "cartoes": [
+    {
+      "id": 1,
+      "nome": "Meu cartão"
+    },
+    {
+      "id": 2,
+      "nome": "teste"
+    },
+    {
+      "id": 3,
+      "nome": "teste"
+    },
+    {
+      "id": 4,
+      "nome": "Teste"
+    }
+  ]
+}

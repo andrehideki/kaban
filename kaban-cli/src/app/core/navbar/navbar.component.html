@@ -1,0 +1,12 @@
+<div id="navbar">
+  <a href="javascript:;">
+    KANBAN
+  </a>
+  <form (submit)="pesquisar()">
+    <input type="text" name="filtro" id="filtro"
+      [(ngModel)]="filtro" />
+    <button type="submit">
+      <fa-icon [icon]="faSearch"></fa-icon>
+    </button>
+  </form>
+</div>
